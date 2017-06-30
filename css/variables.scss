@@ -1,0 +1,30 @@
+
+// core / basic
+$white:           #ffffff;
+$black:           #000000;
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+$font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
+$font-family-base:        $font-family-sans-serif;
+
+// branding
+$darkBlue:        #2a3a56;
+$lightBlue:       #5cc8d2;
+$grey:            #f5f4f5;
+$greyDark:        #ebebeb;
+$greyCopy:        #898989;
+$green:           #42b983;  // Need a nice colour for a success message, so why not use
+                            // Vue Green :)
+
+
+$spacing:         20px;
+
+
+
+body {
+  font-family: $font-family-base;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: normal;
+}
